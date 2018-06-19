@@ -1,0 +1,189 @@
+html, body{
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color:#FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size:28px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size:16px;
+  line-height: 19px;
+  font-weight: 100;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.one-half, .one-third, .one-fourth , .one-sixth {
+  width:96%;
+  float:left;
+  position:relative;
+  min-height: 1px;
+  margin:0 2% 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width:29.33333%;
+  }
+  .one-fourth {
+    width:21%;
+  }
+  .one-sixth {
+    width:12.66666%
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+header {
+  color:#FFFFFF;
+  background: #000000;
+}
+header nav {
+  padding:1em 0;
+}
+
+header nav a.btn-outline {
+  padding:5px 50px;
+  border:1px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+header nav > a {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+header .top-nav > a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 0 0 15px;
+}
+
+main .movie-banner {
+  text-align: center;
+  display:block;
+  position: relative;
+  margin: 0 500px 0;
+}
+
+main .banner h1 {
+  font-size:48px;
+  font-weight: bold;
+  margin:50px 0 0;
+  color: #FFFFFF;
+}
+
+main .banner h2 {
+  font-size:36px;
+  font-weight: bold;
+  margin:20px 0 25px;
+  color: #FFFFFF;
+}
+
+main .banner {
+  background-image: url("../images/Incredibles-image1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+}
+
+.container.movie-banner {
+  height: 524px;
+}
+
+.btn.get-tickets {
+  padding:5px 20px;
+  border:2px solid #FFFFFF;
+  border-radius: 20px;
+  color: #8F191C;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.play-trailer {
+  padding:5px 20px;
+  border:2px solid #8F191C;
+  border-radius: 20px;
+  color: #FFFFFF;
+  background-color: #8F191C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main .description {
+  background-color: #000000;
+  height: 530px;
+}
+
+main .description {
+  background-image: url("../images/Incredibles-image2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+}
+
+main .description h1 {
+  margin: 75px 0 0;
+}
+
+footer {
+  background-color: #000000;
+}
+
+footer .sitemap {
+  list-style: none;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+footer .copyright p {
+  font-size: 10px;
+}
+footer .right-footer-block {
+  text-align: right;
+}
